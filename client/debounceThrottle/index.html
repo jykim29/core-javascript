@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>디바운스와 스로틀</title>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="normal">
+      <label for="normal-input">일반</label>
+      <input id="normal-input" type="text" />
+      <ul class="normal-list"></ul>
+    </div>
+    <div class="debounce">
+      <label for="debounce-input">디바운스</label>
+      <input id="debounce-input" type="text" />
+      <ul class="debounce-list"></ul>
+    </div>
+    <div class="throttle">
+      <label for="throttle-input">스로틀</label>
+      <input id="throttle-input" type="text" />
+      <ul class="throttle-list"></ul>
+    </div>
+  </body>
+</html>

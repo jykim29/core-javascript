@@ -42,3 +42,35 @@ span {
   height: 100px;
   background-color: lime;
 }
+
+.ground {
+  width: 400px;
+  height: 300px;
+  border: 10px solid black;
+  background-color: greenyellow;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ball {
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.5s;
+}
+
+section {
+  background-color: orange;
+  padding: 2rem;
+}
+
+article {
+  background-color: dodgerblue;
+  padding: 2rem;
+}
+
+p {
+  background-color: hotpink;
+  padding: 2rem;
+}

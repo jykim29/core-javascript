@@ -6,6 +6,6 @@
 
 ### Basic
 
-- [x] Code Structure - [바로가기](https://www.naver.com)
+- [x] Code Structure - [바로가기](https://github.com/jykim29/core-javascript/blob/01.core/client/chapter/core/01.codeStructure.js)
 - [ ] - [바로가기](https://www.naver.com)
 - [ ] - [바로가기](https://www.naver.com)

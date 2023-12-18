@@ -11,36 +11,36 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <script src="./lib/utils/typeOf.js" defer></script>
+    <script src="./lib/dom/getNode.js" defer></script>
+    <script src="./lib/dom/attr.js" defer></script>
+    <script src="./lib/dom/insert.js" defer></script>
+    <script src="./lib/dom/css.js" defer></script>
+    <script src="./lib/dom/bindEvent.js" defer></script>
     <!-- <script src="./chapter/core/19.array.js" defer></script> -->
-    <script src="./chapter/core/21.tryCatch.js" defer></script>
+    <script src="./chapter/dom/09.delegation.js" defer></script>
   </head>
   <body>
-    <h1>
-      <span class="first">hello</span>
-      <!-- 주석 -->
-      <span class="second">javascript</span>
-      <!-- 주석 -->
-      <span class="third">javascript</span>
-    </h1>
-    <p>Hello</p>
-    <hr />
-    <div>
-      <label for="todo">할일</label>
-      <input type="text" id="todo" />
-      <button class="register">등록</button>
-
-      <h4>해야할 목록</h4>
-      <ul class="todoList"></ul>
-    </div>
-    <div class="menu">
-      <ul class="menu-list">
-        <li>menu01</li>
-        <li>menu02</li>
-        <li>menu03</li>
-        <li>menu04</li>
-        <li>menu05</li>
+    <!-- <div class="ground">
+      <img src="https://en.js.cx/clipart/ball.svg" id="ball" alt="축구공" />
+    </div> -->
+    <!-- <section>
+      <article>
+        <p>
+          <ul>
+            <li>
+              <span>list</span>
+              <a href="">link</a>
+            </li>
+          </ul>
+        </p>
+      </article>
+    </section> -->
+    <nav>
+      <ul>
+        <li class="home" data-name="home">🏞HOME</li>
+        <li class="about" data-name="about">🔰ABOUT</li>
+        <li class="contact" data-name="contact">📢CONTACT</li>
       </ul>
-    </div>
-    <a class="menu-button" href="/">❎</a>
+    </nav>
   </body>
 </html>

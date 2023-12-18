@@ -1,0 +1,46 @@
+<script>
+  /* 생성자 함수 */
+  function Person(userName, age, hobby) {
+    this.userName = userName;
+    this.age = age;
+    this.hobby = hobby;
+
+    // 인스턴스 메서드
+    this.getUserName = function () {
+      return this.userName;
+    };
+  }
+  // 정적 메서드
+  Person.callStaticMethod = function () {
+    return '생성자 함수의 정적 메서드입니다.';
+  };
+  // 프로토타입 메서드
+  Person.prototype.getAge = function () {
+    return this.age;
+  };
+  const kim = new Person('chulsoo', 25, 'soccer');
+  const lee = new Person('jihye', 35, 'bike');
+
+  /* 클래스 */
+  class Fruit {
+    constructor(fruitName, color) {
+      this.fruitName = fruitName;
+      this.color = color;
+
+      // 인스턴스 메서드
+      this.getColor = function () {
+        return this.color;
+      };
+    }
+    // 프로토타입 메서드
+    getFruitName() {
+      return this.fruitName;
+    }
+    // 정적 메서드
+    static callStaticMethod() {
+      return '클래스의 정적 메서드 입니다.';
+    }
+  }
+  const apple = new Fruit('apple', 'red');
+  const banana = new Fruit('apple', 'yellow');
+</script>
